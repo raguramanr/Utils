@@ -124,7 +124,7 @@ sub addDate{
 sub generateAndSendEmail()
 {
 
- my $strMsg = qq(Hi all,<br><br>Please find below the CQG details as on $globals->{today}. CQG Dashboard <a href=http://autosqaeni/tracker/index.php?printCQG=yes>Click Here</a><br><br>);
+ my $strMsg = qq(Hi all,<br><br>Please find below the CQG details as on $globals->{today}. CQG Dashboard <a href=http://autosqaeni/trackerDash/index.php?printCQG=yes>Click Here</a><br><br>);
 
  if ($globals->{cqgCRcount} == 0) {
   $strMsg .=  qq(<br><font size=4 color=green>Zero CQG CRs... !!! </font><br>);
